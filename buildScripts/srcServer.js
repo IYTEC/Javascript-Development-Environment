@@ -21,6 +21,8 @@ var express = require('express');
 var path = require('path');
 var open = require('open');
 
+/* eslint-disable no-console */
+
 var port = 3000;
 
 var app = express();
