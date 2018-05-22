@@ -1,3 +1,7 @@
 language: node_js
 node_js:
-  -'8.11.1'
+  - "8.11.1"
+before_install:
+  - npm i -g npm@version-number
+  - git config --global user.email "kechieleazar@gmail.com"
+  - git config --global user.name "IYTEC"
